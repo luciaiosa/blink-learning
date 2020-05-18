@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    background-color: lightGray;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: row;
+    margin: 20px;
+    border: 2px solid #696969;
+}
+.buttonContainer {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 7px;
+
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-color: grey;
+    background: linear-gradient(to bottom, lightGrey, grey);
+}
+.starIcon {
+    font-size: 2rem !important;
+    align-self: center;
+    color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.content {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 12px;
+    color: #000;
+}
